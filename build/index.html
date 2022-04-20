@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>Engloba Sistemas Teste
+    </title>
+<script defer src="index.bundle.js"></script></head>
+<body>
+    <div id="header">
+        <button class="nav-button">
+            <img src="17e05da8c9b9546cae7b.png" alt="logo">
+        </button class="nav-button">
+        <button class="nav-button" id="menu-button">
+            <span class="material-icons">menu</span>
+        </button>
+        <div id="menu-list">
+            <button>Primeiro</button>
+            <button>Segundo</button>
+            <button>Terceiro</button>
+            <button>Quarto</button>
+        </div>
+        <div class="header-main" >
+            <div class="search-section" action="">
+                <select name="search-filter" id="search-filter">
+                    <option value="code">Código</option>
+                    <option value="name">Nome</option>
+                    <option value="value">Valor</option>
+                </select>
+                <div class="search-box">
+                    <input type="search" name="search" id="search-input" placeholder="Pesquisar...">
+                    <button type="submit">
+                        <span class="material-icons">search</span>
+                    </button>
+                </div>
+            </div>
+            <div class="user-section">
+                <button class="user-button">
+                    <span class="material-icons">calendar_month</span>
+                </button>
+                <button class="user-button">
+                    <span class="material-icons">sticky_note_2</span>
+                </button>
+                <button class="user-button">
+                    <span class="material-icons">notifications</span>
+                    
+                </button>
+                <button class="user-button">
+                    <span class="material-icons">help</span>
+                    
+                </button>
+                <button class="user-button user-menu">
+                    <span class="material-icons">account_box</span>
+                    <span class="material-icons arrow">arrow_drop_down</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="category-section">
+            <button class="category-button">
+                <span class="material-icons">local_shipping</span>
+                <p>Operações</p>
+            </button>
+            <button class="category-button">
+                <span class="material-icons">analytics</span>
+                <p>Gestão</p>
+            </button>
+            <button class="category-button">
+                <span class="material-icons">attach_money</span>
+                <p>Financeiro</p>
+            </button>
+            <button class="category-button">
+                <span class="material-icons">construction</span>
+                <p>Ferramentas</p>
+            </button>
+            <button class="category-button">
+                <span class="material-icons">change_circle</span>
+                <p>Integrações</p>
+            </button>
+            <button class="category-button">
+                <span class="material-icons">settings</span>
+                <p>Configurações</p>
+            </button>
+        </div>
+        <div class="carousel">
+            <button id="carousel-button-prev" class="carousel-actions material-icons" aria-label="previous chart">chevron_left</button>
+            <div class="carousel-item carousel-item-visible">
+                <img src="198d8c1e29b5e013db3a.jpg" alt="chart 1">
+            </div>
+            <div class="carousel-item">
+                <img src="38b7f1b3ef2fdddbeaba.jpg" alt="chart 2">
+            </div>
+            <div class="carousel-item">
+                <img src="623522e12bb63d8a68d7.jpg" alt="chart 3">
+            </div>
+            <button id="carousel-button-next" class="carousel-actions material-icons" aria-label="next chart">chevron_right</button>
+            <button class="renew material-icons">autorenew</button>
+        </div>
+    </main>
+</body>
+</html>
